@@ -1,0 +1,30 @@
+/* Cara */
+circle {
+    fill: #ffc9b9; 
+    stroke: #000; 
+    stroke-width: 5px; 
+}
+
+/* Ojos */
+circle:nth-of-type(2), circle:nth-of-type(3) {
+    fill: #84c8ff; 
+    stroke: none; 
+}
+
+/* Cambio de color */
+circle:nth-of-type(2):hover, circle:nth-of-type(3):hover {
+    fill: #00f; 
+}
+/* Boca */
+ellipse {
+    fill: #1b0303; 
+    stroke: #000; 
+    stroke-width: 2px; 
+}
+
+/* Cejas */
+line {
+    stroke: #000; 
+    stroke-width: 10px; 
+}
+
